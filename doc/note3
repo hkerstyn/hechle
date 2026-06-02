@@ -1,9 +1,0 @@
-def<T,U,V> cat(f:T->U, g:U->V)  = fn:
-	 t:T => g (f t)
-
-fn f | cat flip
-
-match x :
-	t:T => something
-	_:Vect<Num>, [[_:Num], x:Str] =>:
-		hello yeah 
